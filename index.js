@@ -80,7 +80,7 @@ setInterval(() => {
 }, 60000);
 
 if(process.env.TOKEN){
-client.login(process.env.TOKEN).catch(e => {
+client.login(process.TOKEN).catch(e => {
 console.log("O token do bot que você coloco em mi está incorreto ou as minhas Premisoes estão DESATIVADAS!")
 })
 } else {
